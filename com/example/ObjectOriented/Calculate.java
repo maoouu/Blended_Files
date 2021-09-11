@@ -43,7 +43,7 @@ public class Calculate {
     }
 
     private static String input(String str) {
-        System.out.print("> ");
+        System.out.print(str);
         return in.nextLine();
     }
 
