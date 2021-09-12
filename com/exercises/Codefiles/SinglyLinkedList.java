@@ -41,6 +41,7 @@ public class SinglyLinkedList {
         if (position == 1) {
             newNode.next = head;
             head = newNode;
+            return;
         }
 
         while (cur.next != null && --position > 0) {
